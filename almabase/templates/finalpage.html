@@ -63,7 +63,7 @@
             <p class="mb-5 center-upload-final">Get started by uploading Almabase Data Buddy file(s) along with the master data file!</p>
 
             <!-- <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a> -->
-            <form method="post" action="../upload/" enctype="multipart/form-data">
+            <form method="post" action="../upload/" enctype="multipart/form-data"> {% csrf_token %}
               <!-- <div class = "row"> -->
                 <!-- <div class="col-sm-6"> -->
                   <p class="mb-5 center-upload-final">Upload the almabase output file(s):
