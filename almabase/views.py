@@ -11,10 +11,10 @@ from datetime import datetime
 
 
 def form(request):
-    return render(request, "form.html")
+    return render(request, "finalpage.html")
 
 def home(request):
-    return render(request, "home.html")
+    return render(request, "index.html")
 
 def loading(request):
     return render(request, "loading.html")

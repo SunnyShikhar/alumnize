@@ -20,4 +20,5 @@ from almabase import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('almabase.urls')),
+    # path('join', include('social.apps.django_app.urls', namespace='social')),
 ]
