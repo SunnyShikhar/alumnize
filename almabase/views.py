@@ -27,6 +27,15 @@ def upload(request):
         print(request.FILES)
         print(request.FILES.getlist("files"))
         print(request.FILES.getlist("master"))
-        return beginTransform(request.FILES.getlist("files"), request.FILES.getlist("master"))
+        
+        almaInput = []
+        
+        for eachFile in request.FILES.getlist("files"):
+            almaInput.append(pd.read_csv(eachFile))
+
+        masterFile = [pd.read_csv(request.FILES.getlist("master")[0])]
+        request.close()
+
+        return beginTransform(almaInput, masterFile)
     else:
         return render(request,"error.html")         

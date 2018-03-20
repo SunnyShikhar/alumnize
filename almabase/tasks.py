@@ -18,7 +18,7 @@ def add(x, y):
 
 
 @shared_task(name="transform almabase")
-def beginTransform(alma_data, oldFile):
+def beginTransform(almabase, oldFile):
     def date_format(duration):
         month_dic = {"Jan": "01", "Feb": "02", "Mar": "03", "Apr": "04", "May": "05", "Jun": "06", "Jul": "07",
                  "Aug": "08", "Sep": "09",
@@ -228,22 +228,13 @@ def beginTransform(alma_data, oldFile):
         return masterFile
 
     # Main Function/Transform_Script.py starts here
-    multiFile = pd.DataFrame([])
-    
     if oldFile:
-        masterFile = pd.read_csv(oldFile[0])
+        masterFile = oldFile[0]
 
-    for eachFile in alma_data:
-        print(eachFile)
+    for alma_data in almabase:
         # masterFile = pd.read_csv("masterfile_replace_append.csv")
 
-        alma_data = pd.read_csv(eachFile)
-
         if not alma_data.empty:
-        # alma_data = pd.read_csv("update_mgmt_1.csv")
-        # alma_data = pd.read_csv("C:\\Users\\Joash\\Desktop\\University Stuff\\4B uni stuff\\Team2FYDP\\data_cleaning\\"
-        #                         "transform\\update_mgmt_1.csv")
-
 
             alma_data = alma_data.rename(columns={"Name":"Name",
                                    "Linkedin URL":"Linkedin.URL",
