@@ -29,7 +29,7 @@ Please ensure the following programs are downloaded and installed to use Alumniz
 
 2. Click the download button that appears in the header when Alumni Data Buddy Chrome Extension is enabled.
 
-![Figure1](https://github.com/SunnyShikhar/alumnize/blob/master/almabase/static/img/linkedin.png?raw=true)
+![Figure1](https://github.com/SunnyShikhar/alumnize/blob/master/almabase/static/img/linkedIn.png?raw=true)
 
 3. Repeat for 50 profiles (limitation set by the Chrome extension).
 
