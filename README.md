@@ -61,7 +61,11 @@ Repeat this process until all alumni profiles have been downloaded.
 
 ## Analyze Data
 
-- Tableau Instructions
+1. Open up Tableau Desktop
+
+2. Select "Test Tab v4.twb" Tableau file
+
+3. Load the downloaded "MasterFile.csv" workbook from Alumnize
 
 ## Additional Information
 
