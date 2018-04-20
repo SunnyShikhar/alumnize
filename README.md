@@ -29,17 +29,17 @@ Please ensure the following programs are downloaded and installed to use Alumniz
 
 2. Click the download button that appears in the header when Alumni Data Buddy Chrome Extension is enabled.
 
-![Figure1](https://github.com/SunnyShikhar/alumnize/tree/master/almabase/static/img/linkedin.png?raw=true)
+![Figure1](https://github.com/SunnyShikhar/alumnize/blob/master/almabase/static/img/linkedin.png?raw=true)
 
 3. Repeat for 50 profiles (limitation set by the Chrome extension).
 
 4. Click the chrome extension beside the URL bar.
 
-![Figure2](https://github.com/SunnyShikhar/alumnize/tree/master/almabase/static/img/url.png?raw=true)
-
+![Figure2](https://github.com/SunnyShikhar/alumnize/blob/master/almabase/static/img/url.png?raw=true)
+      
 5. Enter e-mail and download.
 
-![Figure3](https://github.com/SunnyShikhar/alumnize/tree/master/almabase/static/img/almabase.png?raw=true)
+![Figure3](https://github.com/SunnyShikhar/alumnize/blob/master/almabase/static/img/almabase.png?raw=true)
 
 Repeat this process until all alumni profiles have been downloaded.
 
@@ -47,7 +47,7 @@ Repeat this process until all alumni profiles have been downloaded.
 
 1. Go to [Alumnize](https://alumnize-capstone.herokuapp.com/ "Alumnize Home Page")
 
-![Figure4](https://github.com/SunnyShikhar/alumnize/tree/master/almabase/static/img/alumnize.png?raw=true)
+![Figure4](https://github.com/SunnyShikhar/alumnize/blob/master/almabase/static/img/alumnize.png?raw=true)
 
 2. Upload the almabase output file(s) exported using the extension.
 
