@@ -71,13 +71,13 @@ Repeat this process until all alumni profiles have been downloaded.
 
 2. Tableau will automatically find the folder path of the file it is connected too. In this case, the user does not have to do any additional steps to establish a connection with an Excel file.
 
-- Click on the "Main" ♣ or “Full-Time Duration” tab to look at the alumni dashboards.
+- Click on the "Main" or “Full-Time Duration” tab to look at the alumni dashboards.
 
 ### Connecting Tableau to a New “updated_masterfile”
 
 - Go to the “Data Source” tab (bottom left).
 
-= Go to the “Connections” bar located on the top left section of the page.
+- Go to the “Connections” bar located on the top left section of the page.
 
 ![Figure5](https://github.com/SunnyShikhar/alumnize/blob/master/almabase/static/img/tableau1.png?raw=true)
 
@@ -92,12 +92,6 @@ The following are links of free training videos/articles provided by Tableau and
 - [Training videos](https://www.tableau.com/learn/training "Tableau Training Videos")
 
 - [Documentation on Text Files as Data Sources](http://onlinehelp.tableau.com/current/pro/desktop/en-us/help.htm#examples_text.html%3FTocPath%3DReference%7CConnector%2520Examples%7C_____2 "Text as Data Source")
-
-1. Open up Tableau Desktop.
-
-2. Select "Test Tab v4.twb" Tableau file.
-
-3. Load the downloaded "MasterFile.csv" workbook from Alumnize.
 
 ## Additional Information
 
